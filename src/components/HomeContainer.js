@@ -24,6 +24,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     overflow-y: scroll;
+    overflow-x: hidden;
     ::-webkit-scrollbar {
         display: none;
         width: 8px;

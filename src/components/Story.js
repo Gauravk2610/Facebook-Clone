@@ -28,6 +28,7 @@ export default Story
 const Container = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: center;
 `
 
 const List = styled.div`
@@ -64,6 +65,15 @@ const List = styled.div`
     @media(max-width: 1000px) {
         width: 100px;
         height: 160px;
+    }
+
+    @media(max-width: 580px) {
+        width: 21vw;
+        height: 20vh;
+        
+        :nth-child(n+5) {
+            display: none;  
+        }
     }
 `
 

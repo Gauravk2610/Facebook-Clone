@@ -60,6 +60,8 @@ const AddInput = styled.div`
         flex: 1;
         font-size: 18px;
     }
+
+
 `
 
 const Options = styled.div`
@@ -84,7 +86,7 @@ const Icon = styled.div`
     }
 
     p {
-        margin-left: -10px;;
+        margin-left: -10px;
     }
 
     .video{
@@ -101,5 +103,25 @@ const Icon = styled.div`
 
     :hover {
         background-color: #3a3b3c;
+    }
+
+    @media(max-width: 520px) {
+
+        p {
+            font-size: 70%;
+            margin-left: -4px;;
+        }
+
+        .MuiSvgIcon-root {
+            font-size: 26px;
+        }
+    }
+
+    @media(max-width: 410px) {
+
+        p {
+            margin-left: auto;
+        }
+
     }
 `
