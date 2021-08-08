@@ -170,6 +170,13 @@ const Emojis = styled.div`
         color: #b5b5b5;
         font-weight: 100;
     }
+
+    @media(max-width: 520px) {
+
+        p {
+            font-size: 76%;
+        }
+    }
 `
 
 const DetailInfo = styled.div`
@@ -180,6 +187,14 @@ const DetailInfo = styled.div`
     p {
         margin: 0px 6px;
     }
+
+    @media(max-width: 520px) {
+
+        p {
+            font-size: 76%;
+        }
+    }
+
 `
 
 const Bottom = styled.div`
@@ -196,13 +211,14 @@ const Reactios = styled.div`
 `
 
 const Icon = styled.div`
-    padding: 6px 0px;
+    padding: 6px 2px;
     display: flex;
     justify-content: center;
     flex: 1;
     border-radius: 10px;
     cursor: pointer;
-    
+    align-items: center;
+    margin: 0px 6px;
     .share {
         transform: rotateY(180deg);
         }
@@ -214,5 +230,16 @@ const Icon = styled.div`
 
     p {
         margin-left: 6px;
+    }
+
+    @media(max-width: 520px) {
+
+        p {
+            font-size: 80%;
+        }
+
+        .MuiSvgIcon-root {
+            font-size: 20px;
+        }
     }
 `
