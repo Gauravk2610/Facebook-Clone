@@ -11,7 +11,6 @@ function Content() {
                     <Avatar />
                     <Title>
                         <h4>Gaurav Konde</h4>
-                        <h4>Gaurav Konde</h4>
                         <p>3d </p>
                     </Title>
                 </Profile>
